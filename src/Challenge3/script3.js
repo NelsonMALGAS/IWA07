@@ -10,7 +10,7 @@ const divider = '----------------------------------'
 
 // Only change below this line
 
-//-------------CONCATENATION--------------
+//-------------INTEPOLATION--------------
 const owed = parseFloat(-1* leoBalance) + parseFloat(-1 *sarahBalance) 
 const leo =`${leoName} ${(leoSurname).trim()} (Owed :R ${parseFloat(-1 * leoBalance).toFixed(2)})\n`
 const sarah =`${(sarahName).trim()} ${sarahSurname} (Owed :R ${parseFloat(-1 * sarahBalance).toFixed(2)})\n` 
@@ -21,12 +21,10 @@ const result = leo + sarah + divider  + total   + '\n---------------------------
 
 console.log(result)
 
-//CONCATENATION -> is the process of combining two or more strings
-//into a single string. In JavaScript, you can use the concatenation operator
-//`+` to concatenate strings.
-//.trim eliminates access spaces
 
-
+//String interpolation is a feature of modern JavaScript
+//that allows you to embed variables and expressions directly into a string
+//using placeholders, indicated by the ${} syntax.
 
 
 
