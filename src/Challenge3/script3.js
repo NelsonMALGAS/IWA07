@@ -10,7 +10,7 @@ const divider = '----------------------------------'
 
 // Only change below this line
 
-//-------------INTEPOLATION--------------
+//-------------INTERPOLATION--------------
 const owed = parseFloat(-1* leoBalance) + parseFloat(-1 *sarahBalance) 
 const leo =`${leoName} ${(leoSurname).trim()} (Owed :R ${parseFloat(-1 * leoBalance).toFixed(2)})\n`
 const sarah =`${(sarahName).trim()} ${sarahSurname} (Owed :R ${parseFloat(-1 * sarahBalance).toFixed(2)})\n` 
