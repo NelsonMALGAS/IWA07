@@ -23,9 +23,14 @@ const result = leo + sarah + divider  + total   + '\n---------------------------
 console.log(result)
 
 
-//String interpolation is a feature of modern JavaScript
-//that allows you to embed variables and expressions directly into a string
-//using placeholders, indicated by the ${} syntax.
+/**
+ * 
+   String interpolation is a feature of modern JavaScript
+   that allows you to embed variables and expressions directly into a string
+   using placeholders, indicated by the ${} syntax.
+
+ */
+
 
 
 
