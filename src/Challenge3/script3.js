@@ -11,10 +11,10 @@ const divider = '----------------------------------'
 // Only change below this line
 
 //-------------INTERPOLATION--------------
-const owed = parseFloat(-1* leoBalance) + parseFloat(-1 *sarahBalance) 
+const owed = parseFloat((-1* leoBalance) + parseFloat(-1 *sarahBalance)).toLocaleString() 
 const leo =`${leoName} ${(leoSurname).trim()} (Owed :R ${parseFloat(-1 * leoBalance).toFixed(2)})\n`
 const sarah =`${(sarahName).trim()} ${sarahSurname} (Owed :R ${parseFloat(-1 * sarahBalance).toFixed(2)})\n` 
-const total = `\n\tTotal amount owed:R ${(owed).toFixed(2)}`
+const total = `\n\tTotal amount owed:R ${owed}`
 const result = leo + sarah + divider  + total   + '\n----------------------------------'
 
 
